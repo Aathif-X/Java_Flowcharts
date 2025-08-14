@@ -1,13 +1,15 @@
+import java.util.*;
 public class Fcp016{
 public static void main (String [] args){
-int x=2020;
+Scanner sc = new Scanner(System.in);
+int x= sc.nextInt();
 if(x%4==0){
 if(x%100==0){
 if(x%400==0){
-System.out.println("yes");}
-else { System.out.println("no");    }} 
-else { System.out.println("yes");}} 
-else { System.out.println("no"); }
+System.out.println("Yes");}
+else { System.out.println("No");    }} 
+else { System.out.println("Yes");}} 
+else { System.out.println("No"); }
     
 
 }
